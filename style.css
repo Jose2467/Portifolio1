@@ -13,7 +13,8 @@ body{
   
 }
 
-.apresentacao{ /*Insere a apresentaçao no centro da tela*/
+.apresentacao{
+ /*Insere a apresentaçao no centro da tela*/
 
   display: flex;
   align-items: center;
@@ -91,6 +92,23 @@ body{
   text-align: center;
   
 }
+
+@media (max-width: 1200px){
+
+  .apresentacao{
+
+    flex-direction: column-reverse;
+    padding: 5%;
+   
+  }
+
+  .apresentacao_conteudo{
+    text-align: center;
+    width: auto;
+  }
+}
+
+
 
 
 
