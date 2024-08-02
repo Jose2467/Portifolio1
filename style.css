@@ -98,14 +98,14 @@ body{
   .apresentacao{
 
     flex-direction: column-reverse;
-    padding: 0%;
+    padding: 10% 5%;
     width: 100%;
    
   }
 
   .apresentacao_conteudo{
     text-align: center;
-    width: -50%;
+    width: auto;
   }
 }
 
