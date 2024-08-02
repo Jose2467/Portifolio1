@@ -98,7 +98,7 @@ body{
   .apresentacao{
 
     flex-direction: column-reverse;
-    padding: 20%;
+    padding: 0%;
     width: 100%;
    
   }
